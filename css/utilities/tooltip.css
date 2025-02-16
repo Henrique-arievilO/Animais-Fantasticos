@@ -1,0 +1,13 @@
+.tooltip {
+  position: absolute;
+  z-index: 999;
+  background: #00000060;
+  box-shadow: 0 0 0 2px #9a7832, 0 0 0 6px #00000060;
+  padding: .5rem;
+  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 700;
+  font-size: .875rem;
+  max-width: 170px;
+  border-radius: 2px;
+}
