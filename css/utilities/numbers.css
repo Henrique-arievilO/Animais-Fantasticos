@@ -1,0 +1,25 @@
+.gridNumbers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2 / 4;
+  gap: 30px;
+}
+
+.gridNumbers h3 {
+  font-size: 2rem;
+  font-family: 'Playfair Display SC', Georgia;
+  margin-bottom: .5rem;
+}
+
+.gridNumbers span {
+  font-family: 'Corbel V2', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #9a7832;
+}
+
+@media (max-width: 700px) {
+  .gridNumbers {
+    grid-column: 1;
+  }
+}

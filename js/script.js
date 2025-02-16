@@ -7,6 +7,7 @@ import modal from './modules/modal.js';
 import tooltip from './modules/tooltip.js';
 import dropdownMenu from './modules/dropdownMenu.js';
 import menuMobile from './modules/menuMobile.js';
+import animaNumbers from './modules/animaNumbers.js';
 
 smoothScroll();
 scrollAnimation();
@@ -17,3 +18,4 @@ modal();
 tooltip();
 dropdownMenu();
 menuMobile();
+animaNumbers();
