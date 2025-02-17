@@ -1,4 +1,5 @@
 @import url(./global/global.css);
+@import url(./utilities/dateObject.css);
 @import url(./utilities/dropdowMenu.css);
 @import url(./utilities/menuMobile.css);
 @import url(./utilities/modal.css);

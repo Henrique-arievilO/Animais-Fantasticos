@@ -8,6 +8,7 @@ import tooltip from './modules/tooltip.js';
 import dropdownMenu from './modules/dropdownMenu.js';
 import menuMobile from './modules/menuMobile.js';
 import animaNumbers from './modules/animaNumbers.js';
+import operation from './modules/operation.js';
 
 smoothScroll();
 scrollAnimation();
@@ -19,3 +20,4 @@ tooltip();
 dropdownMenu();
 menuMobile();
 animaNumbers();
+operation();

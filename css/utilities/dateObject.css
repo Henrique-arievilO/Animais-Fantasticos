@@ -1,0 +1,27 @@
+.data li.open::before {
+  background-color: #00ff40;
+  animation: blinkOpen 1.5s infinite ease-in-out;
+}
+
+.data li.close::before {
+  background-color: #ff0000;
+  animation: blinkClose 1.5s infinite ease-in-out;
+}
+
+@keyframes blinkOpen {
+  0%, 100% {
+    background-color: #00ff40;
+  }
+  50% {
+    background-color: #3e2e63;
+  }
+}
+
+@keyframes blinkClose {
+  0%, 100% {
+    background-color: #ff0000;
+  }
+  50% {
+    background-color: #3e2e63;
+  }
+}
